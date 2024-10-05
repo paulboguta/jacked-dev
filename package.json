@@ -8,6 +8,7 @@
     "vscode": "^1.60.0"
   },
   "main": "./out/extension.js",
+  "icon": "assets/logo.png",
   "contributes": {
     "commands": [
       {
