@@ -1,0 +1,35 @@
+{
+  "name": "jacked-dev",
+  "displayName": "Jacked Dev",
+  "description": "Become a Jacked Developer",
+  "version": "0.0.1",
+  "publisher": "Pawel Boguta",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.jackedDevInterceptCommit",
+        "title": "Intercept Commit for Pushups"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.jackedDevInterceptCommit",
+        "key": "ctrl+enter",
+        "when": "gitOpenRepositoryCount > 0"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "vscode": "^1.1.37",
+    "@types/node": "^16.7.10"
+  }
+}
