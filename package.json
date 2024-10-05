@@ -2,7 +2,7 @@
   "name": "jacked-dev",
   "displayName": "Jacked Dev",
   "description": "Become a Jacked Developer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "pawel-boguta",
   "engines": {
     "vscode": "^1.60.0"
