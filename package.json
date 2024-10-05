@@ -23,6 +23,15 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulboguta/jacked-dev.git"
+  },
+  "homepage": "https://github.com/paulboguta/jacked-dev#readme",
+  "activationEvents": [
+    "onCommand:git.commit",
+    "onStartupFinished"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./"
