@@ -3,7 +3,7 @@
   "displayName": "Jacked Dev",
   "description": "Become a Jacked Developer",
   "version": "0.0.1",
-  "publisher": "Pawel Boguta",
+  "publisher": "pawel-boguta",
   "engines": {
     "vscode": "^1.60.0"
   },
